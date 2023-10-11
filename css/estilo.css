@@ -1272,7 +1272,7 @@ p, h1, h2, h3, h4, b, input, a {
   top: 0;
   left: 0;
   right: 0;
-  padding-bottom: 350px;
+  padding-bottom: 280px;
   background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
   display: flex;
   align-items: center;
@@ -1287,6 +1287,7 @@ p, h1, h2, h3, h4, b, input, a {
 .bg-glass {
   background: rgba(0, 0, 0, 0.685);
   backdrop-filter: 0.4rem;
+  margin: 20px;
 }
 
 .padre-cielo {
