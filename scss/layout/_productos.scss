@@ -1,0 +1,69 @@
+.title-arnes {
+	width: 100%;
+	height: 35px;
+	text-align: center;
+	margin-top: 75px;
+	padding-bottom: 75px;
+}
+.arneses-titulo {
+	h2 {
+		font-weight: 100;
+		font-size: 30px;
+		font-family: $font-family_1;
+	}
+}
+.whatsapp {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: $background-color_2;
+	color: $color_2;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	z-index: 200;
+}
+.whatsapp-icon {
+	margin-top: 13px;
+	color: $color_1;
+}
+.hover-img {
+	overflow: hidden;
+	img {
+		width: 350px;
+		height: 506px;
+		object-fit: cover;
+		transition: 1.4s;
+		&:hover {
+			transform: scale(1.7);
+		}
+	}
+}
+.container-flex-artemisa {
+	margin-top: 75px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	h3 {
+		padding: 20px;
+		font-size: 18.72px;
+	}
+}
+.text-en-img {
+	position: relative; /* Para que el pseudo-elemento sea relativo a este elemento */
+	z-index: 2; /* Coloca la caja de texto por encima del pseudo-elemento */
+  }
+  
+  .text-en-img::before {
+	content: ""; /* Crea el pseudo-elemento */
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    background-color: rgba(87, 87, 87, 0.603); /* Fondo negro con 50% de transparencia */
+	z-index: -1; /* Coloca el pseudo-elemento detrás de .text-en-img */
+  }

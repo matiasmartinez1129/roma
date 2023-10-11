@@ -1,0 +1,66 @@
+
+.bg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-image: url(../imagenes-accesorios/elasticos-img.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.contact-text {
+	margin: 30px;
+	border: 2px solid rgba(0, 0, 0, 0.281);
+	h2 {
+		font-family: $font-family_1;
+		font-weight: 100;
+		text-align: center;
+		padding: 20px;
+	}
+}
+.effect-text {
+	display: flex;
+	flex-direction: column;
+	background: rgba(0, 0, 0, 0.685);;
+	backdrop-filter: 0.4rem;
+}
+.box-correction {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.red-y-contacto {
+	color: $color_1;
+}
+.wp-icon {
+	i {
+		width: 30px;
+		font-size: 30px;
+		border-radius: 100%;
+	}
+	a {
+		padding-left: 10px;
+		font-size: 20px;
+	}
+}
+.inst-icon {
+	i {
+		width: 30px;
+		font-size: 30px;
+	}
+	a {
+		padding-left: 10px;
+		font-size: 20px;
+	}
+}
+.email-icon {
+	i {
+		width: 30px;
+		font-size: 30px;
+	}
+	b {
+		padding-left: 10px;
+		font-size: 20px;
+	}
+}

@@ -1,0 +1,170 @@
+@media only screen and (max-width: 3500px) {
+	.navbar-brand {
+		display: none;
+	}
+	.navbar, .bg-body-tertiary, .fixed-top{
+		display: none;
+	}
+	.card-container {
+		width: 600px;
+		height: 348px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1200px){
+	.card-container {
+		width: 600px;
+		height: 308px;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	.card-container {
+		width: 600px;
+		height: 308px;
+	}
+}
+
+
+@media only screen and (max-width: 977px){
+	.card-container {
+		width: 300px;
+		height: 306px;
+	}
+}
+
+
+
+@media only screen and (max-width: 800px){
+	
+	nav , .section-container , .nav__ul {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.encabezado {
+		height: 220px;
+
+	}
+	.nav__ul {
+		gap: 10px;
+	}
+	.content-cielo {
+		flex-direction: column;
+		
+	}
+	.content-cielo__text {
+		gap: 30px;
+	}
+	.card-container{
+		width: 300px;
+		height: 305px;
+	}
+	.encabezado {
+		display: none;
+	}
+	.navbar, .fixed-top{
+		display: flex;
+		background-color: #000;
+		border-bottom: 5px solid #fff;
+
+	}
+	
+	.contenedor-flex {
+		display: flex;
+		justify-content: space-between;
+        width: 100%;
+		background-color: #000;
+		.nav-h2, .nav-toggler, .nav-toggler-icon{
+			display: flex;
+			
+			
+			
+		}
+		.container, .container-fluid {
+    --bs-gutter-x: 0;
+}
+.navbar-toggler-icon{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+	
+.navbar-toggler{
+    border: 1px solid #fff;
+}
+
+	}
+	.offcanvas, .offcanvas-end, #offcanvasNavbar, .offcanvasNavbarLabel{
+		background-color: #000;
+	}
+	.offcanvas-title {
+		color: #fff;
+
+	}
+	.offcanvas-header{
+		display: flex;
+		justify-content: space-between;
+		
+		
+	}
+	.new-nav{
+		display: flex;
+		margin-top: 20px;
+	
+		
+	}
+	.nav__ul {
+		display: flex;
+		gap: 35px;
+	}
+	.fa-brands , .fa-shopify{
+		padding-left: 12px;
+	}
+	
+	.btn-close{
+		background-color: #fff;
+		font-size: 10px;
+		
+	}
+}
+
+@media only screen and (max-width: 462px){
+	.card-container {
+		width: 300px;
+		height: 302px;
+	}
+}
+
+
+@media only screen and (max-width: 335px){
+	.card-container {
+		width: 300px;
+		height: 302px;
+	}
+}
+
+@media only screen and (max-width: 334px){
+	.card-container {
+		width: 300px;
+		height: 318px;
+	}
+}
+@media only screen and (max-width: 332px){
+	.card-container {
+		width: 300px;
+		height: 333px;
+	}
+}
+@media only screen and (max-width: 316px){
+	.card-container {
+		width: 300px;
+		height: 348px;
+	}
+}
+@media only screen and (max-width: 276px){
+	.card-container {
+		width: 300px;
+		height: 392px;
+	}
+}

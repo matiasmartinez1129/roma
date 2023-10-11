@@ -1,0 +1,54 @@
+.bg-info {
+	background-image: url(../imagenes-accesorios/mi-cuenta-img.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover
+}
+.bg-icon {
+	background-color: #000;
+}
+.whatsapp {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: $background-color_2;
+	color: $color_2;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	z-index: 200;
+}
+.whatsapp-icon {
+	margin-top: 13px;
+	color: $color_1;
+}
+
+.position-relative-proxim {
+	position: relative;
+}
+
+.proximamente {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding-bottom: 350px;
+	background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+	h2{
+		color: #fff;
+		text-align: center;
+		
+	}
+}
+.bg-glass {
+	background: rgba(0, 0, 0, 0.685);;
+	backdrop-filter: 0.4rem;
+}

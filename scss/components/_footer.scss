@@ -1,0 +1,33 @@
+footer {
+	border: none;
+    border-top: 1px solid #ccc;
+	
+    
+}
+.footer-go {
+	padding-top: 50px;
+	position: relative;
+}
+.texto-pdp {
+	margin: 20px;
+	padding: 20px;
+	h4 {
+		font-size: 14px;
+		color: $color_4;
+		text-align: center;
+	}
+}
+.footer-text {
+	font-family: $font-family_1;
+	font-weight: 100;
+	font-size: 14px;
+	color: $color_4;
+	text-align: center;
+	
+}
+.disweb {
+	
+	@extend .footer-text
+	
+	
+}

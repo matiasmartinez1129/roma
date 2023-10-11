@@ -1,0 +1,99 @@
+$font-family_1: 'Tenor Sans', sans-serif;
+body {
+    background-color: $background-color_1;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p, h1, h2, h3, h4, b, input, a{
+	color: $color_1;
+}
+
+/* Imagen de inicio*/
+.carousel-inner {
+	height: 120vh;
+}
+.carousel-item {
+	height: 120vh;
+	img {
+		height: 100vh;
+		object-fit: cover;
+	}
+}
+/*Productos Tendencia*/
+.titulo__h1-sub{
+	padding: 20px;
+	font-weight: 100;
+	font-size: 32px;
+	text-align: center;
+	background-color: rgba(87, 87, 87, 0.603);
+}
+@mixin flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.section-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.container-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	h3 {
+		padding: 20px;
+		font-size: 18.72px;
+	}
+	img {
+		width: 350px;
+		height: 506px;
+		object-fit: cover;
+		transition: 1.4s;
+		&:hover {
+			transform: scale(1.7);
+		}
+	}
+}
+.content-hover {
+	width: 350px;
+	height: 506px;
+	overflow: hidden;
+	border: 7px solid #fff;
+}
+.container-flex-product {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+	img {
+		width: 350px;
+		height: 506px;
+		object-fit: cover;
+		transition: 1.4s;
+		&:hover {
+			transform: scale(1.7);
+		}
+	}
+}
+
+.text-en-img {
+	position: relative; /* Para que el pseudo-elemento sea relativo a este elemento */
+	z-index: 1; /* Coloca la caja de texto por encima del pseudo-elemento */
+  }
+  
+  .text-en-img::before {
+	content: ""; /* Crea el pseudo-elemento */
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de transparencia */
+	z-index: -1; /* Coloca el pseudo-elemento detrás de .text-en-img */
+  }
