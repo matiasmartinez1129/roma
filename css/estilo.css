@@ -332,6 +332,7 @@ p, h1, h2, h3, h4, b, input, a {
 }
 
 .content-cielo {
+  margin: 40px;
   display: flex;
 }
 .content-cielo img {
