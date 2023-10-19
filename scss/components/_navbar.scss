@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang&display=swap');
 $color_1: #fff;
 $color_3: rgb(60,60,60);
 $font-family_1: 'Tenor Sans', sans-serif;
@@ -42,6 +43,7 @@ ul {
 	color: $color_1;
 	a {
 		text-decoration: none;
+		font-family: 'Fahkwang', sans-serif;
 	}
 	i {
 		width: 30px;

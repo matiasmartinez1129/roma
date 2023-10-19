@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fahkwang&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fahkwang&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fahkwang&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -49,6 +52,7 @@ ul {
 }
 .nav__li a {
   text-decoration: none;
+  font-family: "Fahkwang", sans-serif;
 }
 .nav__li i {
   width: 30px;
@@ -103,6 +107,15 @@ p, h1, h2, h3, h4, b, input, a {
   color: #fff;
 }
 
+.titulo__h1 {
+  font-family: "Fahkwang", sans-serif;
+  font-size: 40px;
+}
+
+.nav-h2 {
+  font-family: "Fahkwang", sans-serif;
+}
+
 /* Imagen de inicio*/
 .carousel-inner {
   height: 120vh;
@@ -120,6 +133,7 @@ p, h1, h2, h3, h4, b, input, a {
 .titulo__h1-sub {
   padding: 20px;
   font-weight: 100;
+  font-family: "Fahkwang", sans-serif;
   font-size: 32px;
   text-align: center;
   background-color: rgba(87, 87, 87, 0.603);
@@ -196,6 +210,7 @@ p, h1, h2, h3, h4, b, input, a {
   margin-top: 50px;
   padding: 20px;
   font-weight: 100;
+  font-family: "Fahkwang", sans-serif;
   font-size: 32px;
   text-align: center;
   background-color: rgba(87, 87, 87, 0.603);
@@ -815,14 +830,15 @@ p, h1, h2, h3, h4, b, input, a {
   justify-content: space-evenly;
 }
 
-.content-cielo {
+.content-cielo-atlas {
   display: flex;
 }
-.content-cielo img {
+.content-cielo-atlas img {
   width: 350px;
   height: 506px;
   border: 7px solid #fff;
   object-fit: cover;
+  object-position: center;
 }
 
 .content-cielo__text {
@@ -988,6 +1004,7 @@ p, h1, h2, h3, h4, b, input, a {
   flex-direction: column;
   background-size: cover;
   opacity: 0.7;
+  font-family: "Fahkwang", sans-serif;
 }
 .bg-img-card h2 {
   text-align: center;
@@ -1041,7 +1058,7 @@ p, h1, h2, h3, h4, b, input, a {
   border: 2px solid rgba(0, 0, 0, 0.281);
 }
 .contact-text h2 {
-  font-family: "Tenor Sans", sans-serif;
+  font-family: "Fahkwang", sans-serif;
   font-weight: 100;
   text-align: center;
   padding: 20px;
@@ -1283,6 +1300,7 @@ p, h1, h2, h3, h4, b, input, a {
 .proximamente h2 {
   color: #fff;
   text-align: center;
+  font-family: "Fahkwang", sans-serif;
 }
 
 .bg-glass {
@@ -1347,10 +1365,14 @@ p, h1, h2, h3, h4, b, input, a {
   padding-bottom: 75px;
 }
 
+.arneses-titulo {
+  padding: 13px;
+  background-color: rgba(87, 87, 87, 0.603);
+}
 .arneses-titulo h2 {
   font-weight: 100;
   font-size: 30px;
-  font-family: "Tenor Sans", sans-serif;
+  font-family: "Fahkwang", sans-serif;
 }
 
 .whatsapp {
@@ -1398,19 +1420,20 @@ p, h1, h2, h3, h4, b, input, a {
 }
 
 .text-en-img {
-  position: relative; /* Para que el pseudo-elemento sea relativo a este elemento */
-  z-index: 2; /* Coloca la caja de texto por encima del pseudo-elemento */
+  position: relative;
+  z-index: 2;
+  font-family: "Fahkwang", sans-serif;
 }
 
 .text-en-img::before {
-  content: ""; /* Crea el pseudo-elemento */
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(87, 87, 87, 0.603); /* Fondo negro con 50% de transparencia */
-  z-index: -1; /* Coloca el pseudo-elemento detrás de .text-en-img */
+  background-color: rgba(87, 87, 87, 0.603);
+  z-index: -1;
 }
 
 @media only screen and (max-width: 3500px) {

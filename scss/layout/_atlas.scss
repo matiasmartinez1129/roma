@@ -3,13 +3,14 @@
 	padding-top: 60px;
 	justify-content: space-evenly;
 }
-.content-cielo {
+.content-cielo-atlas {
 	display: flex;
 	img {
 		width: 350px;
 		height: 506px;
 		border: 7px solid #fff;
 		object-fit: cover;
+		object-position: center;
 	}
 }
 .content-cielo__text {

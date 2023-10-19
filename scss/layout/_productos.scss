@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang&display=swap');
 .title-arnes {
 	width: 100%;
 	height: 35px;
@@ -6,10 +7,12 @@
 	padding-bottom: 75px;
 }
 .arneses-titulo {
+	padding: 13px;
+	background-color: rgba(87, 87, 87, 0.603);
 	h2 {
 		font-weight: 100;
 		font-size: 30px;
-		font-family: $font-family_1;
+		font-family: 'Fahkwang', sans-serif;
 	}
 }
 .whatsapp {
@@ -53,17 +56,18 @@
 	}
 }
 .text-en-img {
-	position: relative; /* Para que el pseudo-elemento sea relativo a este elemento */
-	z-index: 2; /* Coloca la caja de texto por encima del pseudo-elemento */
+	position: relative; 
+	z-index: 2; 
+	font-family: 'Fahkwang', sans-serif;
   }
   
   .text-en-img::before {
-	content: ""; /* Crea el pseudo-elemento */
+	content: ""; 
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-    background-color: rgba(87, 87, 87, 0.603); /* Fondo negro con 50% de transparencia */
-	z-index: -1; /* Coloca el pseudo-elemento detrás de .text-en-img */
+    background-color: rgba(87, 87, 87, 0.603); 
+	z-index: -1; 
   }

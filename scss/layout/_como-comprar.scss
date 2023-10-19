@@ -1,4 +1,4 @@
-
+$font-family: 'Fahkwang', sans-serif;
 .padre-comprar {
 	display: flex;
 	flex-wrap: nowrap;
@@ -37,9 +37,11 @@
 	flex-direction: column;
 	background-size: cover;
 	opacity: 0.7;
+	font-family: 'Fahkwang', sans-serif;
 	h2 {
 		text-align: center;
 		padding: 20px;
+		
 	}
 	 p {
 		margin: 10px;
